@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^login/?$ lw4/login.html [L,QSA]
+RewriteRule ^home/?$ lw4/home.html [L,QSA]
+RewriteRule ^profile/?$ lw4/profile.html [L,QSA]
