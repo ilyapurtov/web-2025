@@ -1,0 +1,49 @@
+.profile-header {
+    margin: 73px auto 42px auto;
+    text-align: center;
+    width: 361px;
+}
+
+.profile-header__user-image {
+    object-fit: cover;
+    width: 123px;
+    height: 123px;
+    border-radius: 16px;
+}
+
+.profile-header__user-name {
+    font-size: 32px;
+    font-weight: 500;
+    color: #222222;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-header__user-desc {
+    margin-top: 0;
+    margin-bottom: 12px;
+    line-height: 18px;
+    font-size: 15px;
+    color: #222222;
+}
+
+.posts-button {
+    display: inline-flex;
+    align-items: center;
+	padding: 6px 10px;
+    background-color: #F2F3F5;
+    border: none;
+    border-radius: 8px;
+    color: #222222;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.posts-button__image {
+    margin-right: 6px;
+}
+
+.posts {
+    width: 972px;
+    margin: 0 auto;
+}
