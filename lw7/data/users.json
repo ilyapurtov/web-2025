@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "bio": "Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!",
+        "image": "user1.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Jane",
+        "bio": "I'm Jane, playing in a rock band",
+        "image": "user2.png"
+    },
+    {
+        "id": 3,
+        "name": "Илья",
+        "bio": "Lorem ipsum dolor sit amet.",
+        "image": "user1.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Анна",
+        "bio": "Lorem ipsum dolor sit amet.",
+        "image": "user2.png"
+    },
+    {
+        "id": 5,
+        "name": "Саша",
+        "bio": "Lorem ipsum dolor sit amet.",
+        "image": "user2.png"
+    }
+]

@@ -1,4 +1,5 @@
 RewriteEngine On
-RewriteRule ^login/?$ lw5/login.html [L,QSA]
-RewriteRule ^home/?$ lw5/home.html [L,QSA]
-RewriteRule ^profile/?$ lw5/profile.html [L,QSA]
+RewriteRule ^login/?$ lw11/login.php [L,QSA]
+RewriteRule ^home/?$ lw11/home.php [L,QSA]
+RewriteRule ^profile/?$ lw11/profile.php [L,QSA]
+RewriteRule ^create/?$ lw11/create.php [L,QSA]

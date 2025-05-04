@@ -1,0 +1,152 @@
+* {
+	font-family: "Golos UI", sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 72px;
+    border-right: 1px solid #2222220D;
+    height: 100vh;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav__item {
+    margin-bottom: 16px;
+}
+
+.no-posts {
+    text-align: center;
+    color: #222222;
+}
+
+/* Button */
+.button {
+    border-radius: 10px;
+    background-color: #222222;
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 16px;
+    cursor: pointer;
+    border: 0;
+}
+
+.button:disabled {
+    background-color: #B4B4B4;
+    cursor: auto;
+}
+
+.button:not(:disabled):hover {
+    background-color: #363636;
+}
+
+.link-button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    color: #3F8AE0;
+}
+
+.link-button .button__icon {
+    margin-right: 5px;
+}
+
+/* Slider */
+.slider__item {
+    display: block;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider__label {
+    position: absolute;
+    padding: 3px 10px;
+    top: 20px;
+    right: 16px;
+    background-color: rgba(34, 34, 34, 0.5);
+    backdrop-filter: blur(12px);
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.slider__button {
+    position: absolute;
+    top: calc(50% - 24px / 2);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.slider__button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.slider__button_right {
+    right: 16px;
+}
+
+.slider__button_left {
+    left: 16px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(22, 22, 22, 0.6);
+    backdrop-filter: blur(15px);
+    left: 0;
+    top: 0;
+}
+
+.modal__content {
+    position: fixed;
+    width: 500px;
+    left: calc(50vw - 500px / 2);
+    top: calc(50vh - 500px / 2 - 40px);
+    text-align: center;
+}
+
+.modal__close {
+    display: block;
+    margin-left: calc(100% - 30px);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.modal-slider__label {
+    display: inline-block;
+    position: static;
+    background-color: transparent;
+    backdrop-filter: none;
+    margin-top: 24px;
+}
+
+.modal-slider__item {
+    width: 500px;
+    height: 500px;
+}
+
+@keyframes modal-show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
